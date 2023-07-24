@@ -8,7 +8,7 @@ boxProjetos.innerHTML = "";
 const projetos = [
     {
         nomeProjeto: 'Projeto Pokedex (INCOMPLETO)',
-        gitHub :'https://github.com/joaocosta956',
+        gitHub :'https://github.com/joaocosta956/ProjetosHtml/tree/main/pokedex',
         site : 'Site1',
         img : 'images/pokedex.jpg',
     },
@@ -18,7 +18,7 @@ const projetos = [
 const tamanhoProjetos = Object.keys(projetos).length;
 
 
-let funcionando = 1; // Liga/Desliga
+let funcionando = 0; // Liga/Desliga
 
 
     if(tamanhoProjetos == 0 || funcionando == 0){
