@@ -7,23 +7,12 @@ boxProjetos.innerHTML = "";
 
 const projetos = [
     {
-        nomeProjeto: 'Projeto 1',
+        nomeProjeto: 'Projeto Pokedex (INCOMPLETO)',
         gitHub :'https://github.com/joaocosta956',
         site : 'Site1',
-        img : 'images/background0.jpg',
+        img : 'images/pokedex.jpg',
     },
-    {
-        nomeProjeto: 'Projeto 2',
-        gitHub :'Git2',
-        site : 'Site2',
-        img : 'images/background1.jpg',
-    },
-    {
-        nomeProjeto: 'Projeto 3',
-        gitHub :'Git3',
-        site : 'Site3',
-        img : 'images/background2.jpg',
-    },
+
 ];
 
 const tamanhoProjetos = Object.keys(projetos).length;
@@ -51,8 +40,8 @@ let funcionando = 1; // Liga/Desliga
                     <div class="text-projetos">
                         <h3><p >`+projetoAtual.nomeProjeto+`</p></h3>
                         <div class="buttons-url">
-                            <a href="`+projetoAtual.gitHub+`"> Git </a>
-                            <a href="`+projetoAtual.site+`"> Site </a>
+                            <a target="_blank" href="`+projetoAtual.gitHub+`"> Git </a>
+                            <!--<a target="_blank" href="`+projetoAtual.site+`"> Site </a>-->
                         </div>
                     </div>
                 </div>

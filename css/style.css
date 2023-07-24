@@ -163,8 +163,7 @@ footer p {
     border: 5px solid white;
     margin-top: -40px;
     border-radius: 50%;
-    width: 100%;
-    animation: border-top-right 3s infinite alternate;
+    width: 120%;
 }
 
 
