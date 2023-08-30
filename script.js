@@ -7,10 +7,10 @@ boxProjetos.innerHTML = "";
 
 const projetos = [
     {
-        nomeProjeto: 'Projeto Pokedex (INCOMPLETO)',
-        gitHub :'https://github.com/joaocosta956/ProjetosHtml/tree/main/pokedex',
+        nomeProjeto: 'Projeto Mandarin',
+        gitHub :'https://joaocosta956.github.io/Desafio_Mandarin/',
         site : 'Site1',
-        img : 'images/pokedex.jpg',
+        img : 'images/',
     },
 
 ];
