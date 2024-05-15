@@ -18,7 +18,7 @@ const projetos = [
 const tamanhoProjetos = Object.keys(projetos).length;
 
 
-let funcionando = 0; // Liga/Desliga
+let funcionando = 1; // Liga/Desliga
 
 
     if(tamanhoProjetos == 0 || funcionando == 0){
