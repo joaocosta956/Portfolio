@@ -10,7 +10,7 @@ const projetos = [
         nomeProjeto: 'Projeto Mandarin',
         gitHub :'https://joaocosta956.github.io/Desafio_Mandarin/',
         site : 'Site1',
-        img : 'images/',
+        img : 'images/background.jpg',
     },
 
 ];
