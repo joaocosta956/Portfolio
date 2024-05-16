@@ -9,7 +9,7 @@ const projetos = [
     {
         nomeProjeto: 'Projeto Mandarin',
         gitHub :'https://joaocosta956.github.io/Desafio_Mandarin/',
-        site : 'Site1',
+        site : 'https://main--bespoke-quokka-c6b8ec.netlify.app/',
         img : 'images/background.jpg',
     },
 
