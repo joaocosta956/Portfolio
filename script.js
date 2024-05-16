@@ -41,7 +41,7 @@ let funcionando = 1; // Liga/Desliga
                         <h3><p >`+projetoAtual.nomeProjeto+`</p></h3>
                         <div class="buttons-url">
                             <a target="_blank" href="`+projetoAtual.gitHub+`"> Git </a>
-                            <!--<a target="_blank" href="`+projetoAtual.site+`"> Site </a>-->
+                            <a target="_blank" href="`+projetoAtual.site+`"> Site </a>
                         </div>
                     </div>
                 </div>
